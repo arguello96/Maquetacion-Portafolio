@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: rgb(201, 200, 200);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.sticky-nav {
+    height: 280px;
+    width: 60px;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 55px;
+    position: sticky;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.sticky-nav li {
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+}
+
+li a:hover {
+    color: white;
+}
+
+ul {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.linea {
+    box-sizing: border-box;
+}
+
+a {
+    color: rgba(213, 178, 247, 0.911);
+    text-decoration: none;
+}
+
+.contenedor {
+    max-width: 800px;
+    width: 100%;
+    margin: 50px 15px;
+}
+
+.seccion {
+    background-color: #ffff;
+    padding: 50px;
+    border-radius: 7px;
+    margin-bottom: 1px;
+    display: flex;
+}
+
+.sub-sec {
+    width: 50%;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(74, 2, 141);
+    border-radius: 50%;
+}
+
+.status {
+    display: flex;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 20px;
+    padding: 6px;
+}
+
+.p-status {
+    margin: 0 10px;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.profile {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 16px;
+    object-fit: scale-down;
+}
+
+.p-desc {
+    font-size: 28px;
+    border-bottom: 1px solid rgb(176, 172, 172);
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.btn-black {
+    background-color: black;
+    color: #ffff;
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-lined {
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: underline;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.conocimientos {
+    height: auto;
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+    margin-bottom: 1px;
+}
+
+.logos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos img {
+    width: 70px;
+    height: 70px;
+    padding: .5em;
+    border: 1px solid rgba(186, 125, 243, 0.911);
+    border-radius: 50%;
+}
+
+.trabajo{
+    background-color: #fff;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-bottom: 1px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ejemplos{
+    display: flex;
+}
+
+.ejemplo1{
+    background-color: white;
+    border-radius: 7px;
+    margin: 1px; 
+}
+
+.ejemplo1 img{
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.nombre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boton{
+    background-color: rgb(237, 237, 237);
+    padding: 6px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.mo{
+    background-color: white;
+    color: rgb(75, 70, 70);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 7px;
+    height: 20px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.icono{
+    border: none;
+    background-color: white;
+}
+
+.formulario{
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.imput-group{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+
+.imput-group .formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imput-group form input[id="from_name"],.imput-group form input[id="email_id"]{
+    width: 46.7%;
+    padding: 10px;
+    margin-bottom: 2px ;
+    border-radius: 5px;
+    border-color: rgba(213, 178, 247, 0.911);
+}
+
+.imput-group form input[id="message"]{
+    width: 100%;
+    padding: 10px 10px 80px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.imput-group form input[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer; 
+    border: none;   
+} 
+
+
+@media screen and (max-width: 767px){
+
+   .contenedor{
+    max-width: 98%;
+    width: 100%;
+    margin: 50px 15px;
+}
+
+.sticky-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 50px;
+    width: 98%;
+    height: 60px;
+    top: 5px;
+    position: sticky;
+    margin-top: 40px;
+}
+   
+.sub-sec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    width: 55%;
+}
+
+.btn{
+    display: block;
+}
+
+.ejemplos{
+    display: block;
+}
+
+.imput-group .correo{
+    display: block;
+}
+
+}
+
+@media screen and (max-width: 728px){
+
+    body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .sticky-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        border-radius: 50px;
+        width: 98%;
+        height: 60px;
+        top: 5px;
+        position: sticky;
+        margin-top: 40px;
+    }
+
+    .sticky-nav li{
+        text-align: center;
+        padding: 10px;
+        list-style: none;
+    }
+
+    ul{
+        text-decoration: none;
+       flex-direction: row;
+       justify-content: space-around;
+       width: 80%;
+       display: flex;
+       position: static;
+    }
+
+    
+    /* .dere {
+        
+        border-right: 1px solid rgb(223, 148, 238);
+    } */
+
+    .logos{
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-columns: 1fr;
+        align-content: center;
+        justify-items: center;
+        display: grid;
+    }
+
+    .ejemplos{
+        display: block;
+    }
+
+}
+
